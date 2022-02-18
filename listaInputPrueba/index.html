@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Lista de tareas</h1>
+        <form action="">
+      
+            <div>
+                <input type="text" id="tarea" placeholder="Descripcion de la tarea">
+                <select name="prioridad" id="prioridad">
+                    <option value="" disabled selected>Elija la prioridad</option>
+                    <option value="prioridad-baja">Baja</option>
+                    <option value="prioridad-media">Media</option>
+                    <option value="prioridad-alta">Alta</option>
+                </select>
+                <button id="agregar">Agregar</button>
+                <button id="eliminar">Eliminar</button>
+            
+            </div>
+
+            <ul id="lista-tareas">
+                <li class="prioridad-baja">Ordenar el cuarto</li>
+                <li class="prioridad-media">Colgar la ropa </li>
+                <li class="prioridad-alta">Lavar la ropa</li>
+            </ul>
+        </form>
+        
+        <p>Lista de tareas asignadas </p>
+
+    </main>
+   
+    <script src="app.js"></script>
+</body>
+</html>
